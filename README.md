@@ -4,7 +4,7 @@
 
 - Upload the template to AWS CloudFormation: `shadowsocks-vpn-server.yaml`
 - CloudFormation will create the Shadowsocks server for you
-- Take a note of the Password you have set for the server, you will need it for Shadowsocks Client to connect to the server
+- Take a note of the Shadowsocks Password & IP, Port (8388) you have set for EC2 instance, you will need it for Shadowsocks Client to connect to the server
 
 ## Step 2:
 
@@ -13,6 +13,13 @@
 - Android Client: https://github.com/shadowsocks/shadowsocks-android
 - iOS: Sockswitch is recommended
 - MacOS & Linux: https://sourceforge.net/projects/shadowsocksgui/files/dist/ 
+
+## Configure Shawdowsocks Client
+
+- IP: EC2 instance public IP address
+- Port: 8388
+- Encryption: aes-256-cfb
+- Passwword: you have set on step 1 (CloudFormaion template)
 
 
 ## Troubleshooting
