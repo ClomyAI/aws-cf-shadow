@@ -17,7 +17,7 @@
 
 ## Troubleshooting
 
-- In case the IP of Shadowsocks has been blocked, you can easily *Stop Then Start* (Do Not Reboot) the server using AWS CLI
+- In case the IP of Shadowsocks has been blocked, you can easily *Stop Then Start* (Do Not Just Reboot, Reboot won't assign new IP) the server using AWS CLI
 - Replace i-XXXXXXXX with the actual EC2 Instance ID
 
 *Stop EC2*
