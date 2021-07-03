@@ -44,4 +44,4 @@ aws ec2 describe-instances --instance-ids i-XXXXXXXX --query 'Reservations[*].In
 
 
 
-Note: please this is for Educational Purpose only. Do not use it in countries or regions that forbid VPN access.
+Note: This is for Educational Purpose only. Do not use it in countries or regions that forbid VPN access.
