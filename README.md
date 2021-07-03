@@ -4,6 +4,7 @@
 
 - Upload the template to AWS CloudFormation
 - CloudFormation will create the Shadowsocks server for you
+- Take a note of the Password you have set for the server, you will need it for Shadowsocks Client to connect to the server
 
 ## Step 2:
 
